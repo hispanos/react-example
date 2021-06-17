@@ -65,7 +65,7 @@ const App = () => {
         <Fragment>
             <Main 
                 title="Lista de Artistas" 
-                artist={albumes} 
+                albums={albumes} 
             />
         </Fragment>
     )

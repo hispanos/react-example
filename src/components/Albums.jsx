@@ -11,7 +11,7 @@ const Albums = (props) => {
                 <div className="card_content">
                     <h2 className="card_title">{props.albums.artista}</h2>
                     <p className="card_text">{props.albums.titulo}</p>
-                    <button className="btn card_btn">Leer más</button>
+                    <button className="btn card_btn">{props.albums.agrupacion}</button>
                 </div>
             </div>
         </li>
